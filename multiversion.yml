@@ -1,0 +1,35 @@
+
+
+protocols:
+  latest:
+    enabled: true
+  527:
+    enabled: true
+  594:
+    enabled: true
+
+logging:
+  level: INFO
+  log_translations: false
+  log_performance: true
+
+translation:
+  cache_enabled: true
+  cache_size: 10000
+  missing_block_fallback: update_block
+  missing_item_fallback: air
+
+performance:
+  async_chunks: false
+  slow_translation_threshold: 5.0
+
+features:
+  translate_blocks: true
+  strip_item_nbt: true
+  reencode_chunks: false
+  translate_startgame: false
+  filter_entity_metadata: true
+
+statistics:
+  enabled: true
+  save_on_shutdown: true

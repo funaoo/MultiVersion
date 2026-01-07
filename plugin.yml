@@ -1,0 +1,12 @@
+name: MultiVersion
+version: 2.0.0
+main: MultiVersion\MultiVersion
+api: 5.0.0
+author: Funaoo
+description: Advanced multi-protocol support for PocketMine-MP servers. Allows players with different Minecraft PE versions (1.19.2 - 1.20.70+) to play together.
+website: https://github.com/funaoo/MultiVersion
+
+permissions:
+  multiversion.command:
+    description: Allows usage of MultiVersion commands
+    default: op

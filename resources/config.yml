@@ -1,0 +1,84 @@
+multiversion:
+  enabled: true
+
+  protocols:
+    min_protocol: 527
+
+    max_protocol: 999
+
+    strict_mode: false
+
+    latest:
+      enabled: true
+
+    527:
+      enabled: true
+      name: "1.19.2"
+
+    560:
+      enabled: true
+      name: "1.19.60"
+
+    594:
+      enabled: true
+      name: "1.20.0"
+
+    621:
+      enabled: true
+      name: "1.20.50"
+
+  fallback:
+    behavior: "visual_match"
+
+    unknown_blocks: "stone"
+
+    unknown_items: "air"
+
+    unsupported_entities: "despawn"
+
+  cache:
+    chunks:
+      enabled: true
+
+      max_size: 2000
+
+      max_memory_mb: 256
+
+      ttl_seconds: 300
+
+    palettes:
+      enabled: true
+
+      preload: true
+
+  inventory:
+    server_authoritative: true
+
+    validation_enabled: true
+
+    rollback_on_desync: true
+
+    transaction_timeout: 5
+
+  entities:
+    downgrade_enabled: true
+
+    metadata_filtering: true
+
+    despawn_unsupported: true
+
+  performance:
+    cleanup_interval: 60
+
+    cache_optimization_interval: 300
+
+  debug:
+    log_protocol_detection: false
+
+    log_packet_translation: false
+
+    log_cache_stats: false
+
+    log_performance_metrics: false
+
+    log_level: "info"
