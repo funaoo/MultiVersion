@@ -1,4 +1,6 @@
-# MultiVersion
+# MultiVersion - NO SUPPORT
+
+DISCORD: https://discord.gg/5Vm7UAgwqr
 
 Advanced multi-protocol support plugin for PocketMine-MP 5 servers. Allow players with different Minecraft Bedrock Edition versions to play together seamlessly.
 
