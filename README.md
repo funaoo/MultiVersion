@@ -332,9 +332,9 @@ Outgoing: Server -> MVPacketInterceptor -> Protocol Adapter -> Translation -> Cl
 Contributions are welcome! Please follow these guidelines:
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create a feature branch (`None`)
+3. Commit your changes (`None`)
+4. Push to the branch (`None`)
 5. Open a Pull Request
 
 ### Development Guidelines
@@ -366,12 +366,6 @@ Contributions are welcome! Please follow these guidelines:
 - Protocol translation layer
 - Event system implementation
 
-## Support
-
-- **Issues:** [GitHub Issues](https://github.com/Funaoo/MultiVersion/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/Funaoo/MultiVersion/discussions)
-- **Wiki:** [Documentation Wiki](https://github.com/Funaoo/MultiVersion/wiki)
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -379,8 +373,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Credits
 
 - **Author:** [Funaoo](https://github.com/Funaoo)
-- **Contributors:** See [Contributors](https://github.com/Funaoo/MultiVersion/graphs/contributors)
-- **Special Thanks:** PocketMine-MP team for the excellent server software
 
 ## Disclaimer
 
@@ -389,5 +381,6 @@ This plugin is provided "as-is" without warranty of any kind, express or implied
 ---
 
 **Made with dedication for the PocketMine-MP community**
+DISCORD: https://discord.gg/5Vm7UAgwqr
 
 Star this project if you find it useful!
